@@ -109,6 +109,23 @@
             </div>
         </section>
     </main>
+    
+    <section class="caesar-section">
+        <h2>Caesar Cipher Tool</h2>
+        <p>Encrypt or decrypt your messages using the classic Caesar cipher. Choose your shift value and click encode or decode.</p>
+    
+        <label for="inputText">Enter Text:</label>
+        <textarea id="inputText" rows="3" cols="50" placeholder="Type your message here..."></textarea><br>
+    
+        <label for="shift">Shift (0-25):</label>
+        <input type="number" id="shift" min="0" max="25" value="3"><br>
+    
+        <button onclick="encodeCaesar()">Encode</button>
+        <button onclick="decodeCaesar()">Decode</button>
+    
+        <h3>Result:</h3>
+        <div id="cipherResult" class="cipher-output"></div>
+    </section>
 
     <script src="script.js"></script>
 </body>
