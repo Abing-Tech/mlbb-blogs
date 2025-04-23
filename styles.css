@@ -89,3 +89,34 @@ img {
 body {
     overflow-y: scroll;
 }
+
+
+
+.caesar-section {
+    padding: 20px;
+    background-color: #0e3e5e;
+    margin: 40px auto;
+    max-width: 700px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.caesar-section textarea,
+.caesar-section input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+.cipher-output {
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    min-height: 80px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 10px;
+    white-space: pre-wrap;
+    overflow-y: auto;
+    max-height: 200px;
+    font-family: monospace;
+}
